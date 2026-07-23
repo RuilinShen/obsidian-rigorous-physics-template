@@ -1,0 +1,20 @@
+# Obsidian 本地配置（每台机器不同，不应提交）
+.obsidian/
+
+# 本地插件开发缓存
+.obsidian/plugins/*/
+!.obsidian/plugins/*/.gitkeep
+
+# 临时文件
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# 如果你使用了 Pandoc 或 LaTeX 导出，忽略中间产物
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
