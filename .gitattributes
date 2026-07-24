@@ -25,7 +25,7 @@
 # 将 Markdown 中的 MathJax/LaTeX 标记为 "Generated"
 # 防止 GitHub 将其误认为是代码变更，减少 Diff 噪音
 # 同时告诉 GitHub Linguist 不要过度统计 LaTeX 字符数
-*.md -diff linguist-generated
+*.md linguist-documentation=true linguist-generated=false
 
 # 如果你有独立的 .tex 文件（例如从教材导出的）
 *.tex text diff=tex
